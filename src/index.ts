@@ -34,3 +34,9 @@ import arraySample from './array/array';
 import tupleSample from './array/tuple';
 arraySample();
 tupleSample();
+
+// ジェネリック型とポリモーフィズム
+import genericsBasicSample from './generics/basic';
+import genericsAdvancedSample from './generics/advanced';
+genericsBasicSample();
+genericsAdvancedSample();
