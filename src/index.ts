@@ -40,3 +40,11 @@ import genericsBasicSample from './generics/basic';
 import genericsAdvancedSample from './generics/advanced';
 genericsBasicSample();
 genericsAdvancedSample();
+
+// 非同期処理
+import callbackSample from './async/callback';
+import promiseSample from './async/promise';
+import asyncAwaitSample from './async/asyncAwait';
+callbackSample();
+promiseSample();
+asyncAwaitSample();
